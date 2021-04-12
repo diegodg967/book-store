@@ -10,8 +10,17 @@ export default createGlobalStyle`
 
   body {
     background: #fcf500;
-    color: #000;
+    color: #312f00;
     -webkit-font-smoothing: antialiased;
+  }
+
+  html, body, #root {
+    height: 100%
+  }
+
+  #root {
+    display: flex;
+    flex-direction: column;
   }
 
   body, input, button {
